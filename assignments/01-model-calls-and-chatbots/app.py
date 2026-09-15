@@ -8,7 +8,7 @@ client = OpenAI()
 st.title("Our Chatbot")
 
 # After editing this instruction, click New conversation to use it.
-system_prompt = "You are a helpful tutor. Explain your answers clearly."
+system_prompt = "You are a helpful educational tool. Explain your answers clearly like the user is a five year old."
 # This returns True on the run triggered by clicking the button.
 new_conversation = st.button("New conversation")
 
